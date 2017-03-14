@@ -7,49 +7,29 @@ refdes=J3
 T 43900 47577 5 10 1 1 270 0 1
 description=7seg LED
 T 42100 46200 5 10 0 0 0 0 1
-footprint=HEADER10_2
+footprint=connector(2, 5, spacing=100.00mil, sequence=pivot, silkmark=external)
 }
-C 42500 49400 1 0 0 vcc-1.sym
 N 43000 49400 42700 49400 4
 C 42600 48800 1 0 0 gnd-1.sym
 N 43000 49100 42700 49100 4
 N 43000 48800 41000 48800 4
 {
-T 42000 48855 5 10 0 0 0 3 1
-netname=data0
+T 42000 48855 5 10 1 1 0 3 1
+netname=LCD_D7
 }
 N 41000 48500 43000 48500 4
 {
-T 42000 48555 5 10 0 0 0 3 1
-netname=data1
+T 42000 48555 5 10 1 1 0 3 1
+netname=LCD_FS
 }
 N 41000 48200 43000 48200 4
 {
-T 42000 48255 5 10 0 0 0 3 1
-netname=data2
+T 42000 48255 5 10 1 1 0 3 1
+netname=LCD_D6
 }
 N 41000 47900 43000 47900 4
-{
-T 42000 47955 5 10 0 0 0 3 1
-netname=data3
-}
 N 41000 47600 43000 47600 4
-{
-T 42000 47655 5 10 0 0 0 3 1
-netname=data4
-}
 N 43000 47300 41000 47300 4
-{
-T 42000 47355 5 10 0 0 0 3 1
-netname=data5
-}
 N 41000 47000 43000 47000 4
-{
-T 42000 47055 5 10 0 0 0 3 1
-netname=data6
-}
 N 43000 46700 41000 46700 4
-{
-T 42000 46755 5 10 0 0 0 3 1
-netname=data7
-}
+C 42500 49400 1 0 0 5V-plus-1.sym
